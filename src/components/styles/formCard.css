@@ -1,0 +1,184 @@
+.form__container{
+background-color: white;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc9;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form__x{
+position: absolute;
+top: 20px;
+right: 20px;
+font-size: 20px;
+transition: scale 100ms ease;
+
+}
+.form__x:hover{
+    transform: scale(1.1);
+    transition: scale 100ms ease;
+    cursor: pointer;
+}
+
+.form__title{
+    text-align: center;
+}
+.email__container{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 100%;
+gap: 20px;
+max-width: 355px;
+margin-left: auto;
+margin-right: auto;
+   
+}
+.email__label{
+
+    font-weight: bold;
+}
+.email__input{
+    outline: none;
+    background-color: #F9FAFC;
+    border-radius: 5px;
+    border: 1px solid #C3C1C1;
+    height: 35px;
+    width: 100%;
+    max-width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.password__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+       
+    }
+    .password__label{
+    
+        font-weight: bold;
+    }
+    .password__input{
+        outline: none;
+        background-color:  #F9FAFC;
+        border: 1px solid #C3C1C1;
+        border-radius: 5px;
+        height: 35px;
+        width: 100%;
+        max-width: 355px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        width: 100%;
+        max-width: 355px;
+        margin-left: auto;
+        margin-right: auto;
+           
+        }
+        .name__label{
+        
+            font-weight: bold;
+        }
+        .name__input{
+            outline: none;
+            background-color: #F9FAFC;
+            border: 1px solid #C3C1C1;
+            border-radius: 5px;
+            height: 35px;
+            width: 100%;
+            max-width: 355px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .lastname__container{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 20px;
+            width: 100%;
+            max-width: 355px;
+            margin-left: auto;
+            margin-right: auto;
+               
+            }
+            .lastname__label{
+            
+                font-weight: bold;
+            }
+            .lastname__input{
+                outline: none;
+                background-color:  #F9FAFC;
+                border: 1px solid #C3C1C1;
+                border-radius: 5px;
+                height: 35px;
+                width: 100%;
+                max-width: 355px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .birthday__container{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 20px;
+                width: 100%;
+                max-width: 355px;
+                margin-left: auto;
+                margin-right: auto;
+                   
+                }
+                .birthday__label{
+                
+                    font-weight: bold;
+                }
+                .birthday__input{
+                    outline: none;
+                    background-color:  #F9FAFC;
+                   border: 1px solid #C3C1C1;
+                   font-size: 18px;
+                    border-radius: 5px;
+                    height: 35px;
+                    width: 100%;
+                    max-width: 355px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .form__btn{
+                    height: 35px;
+                    background-color: #555A88;
+                    font-weight: 200;
+                    color: white;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                    font-size: 25px;
+                    cursor: pointer;
+                    transition: filter 100ms ease;
+                }
+                .form__btn:hover{
+
+                    filter: brightness(1.2);
+                    transition: filter 100ms ease;
+                }
